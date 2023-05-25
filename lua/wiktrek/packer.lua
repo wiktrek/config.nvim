@@ -17,4 +17,5 @@ vim.cmd('colorscheme poimandres')
   end
 }
 use( 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
-  end)
+use('ThePrimeagen/harpoon') 
+ end)
