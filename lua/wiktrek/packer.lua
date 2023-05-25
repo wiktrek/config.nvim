@@ -18,4 +18,5 @@ vim.cmd('colorscheme poimandres')
 }
 use( 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
 use('ThePrimeagen/harpoon') 
+use('mbbill/undotree')
  end)
