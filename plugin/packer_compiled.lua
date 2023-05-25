@@ -78,10 +78,30 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\wiktor\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\wiktor\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["poimandres.nvim"] = {
+    config = { "\27LJ\2\n<\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\15poimandres\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\wiktor\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\poimandres.nvim",
+    url = "https://github.com/olivercederborg/poimandres.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\wiktor\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: poimandres.nvim
+time([[Config for poimandres.nvim]], true)
+try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
+time([[Config for poimandres.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

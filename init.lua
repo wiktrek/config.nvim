@@ -1,2 +1,4 @@
-require("wiktrek.remap")
-print("hello")
+vim.cmd('colorscheme poimandres')
+-- print("hello")
+
+
