@@ -2,16 +2,16 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 use 'wbthomason/packer.nvim'
-	use 'nvim-treesitter/nvim-treesitter'
+
+use 'nvim-treesitter/nvim-treesitter'
+
+use 'rafamadriz/neon'
+
 use {
-  'glepnir/dashboard-nvim',
-  event = 'VimEnter',
-  config = function()
-    require('dashboard').setup {
-      -- config
-    }
-  end,
-  requires = {'nvim-tree/nvim-web-devicons'}
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons', -- optional
+  },
 }
 use {
   'VonHeikemen/lsp-zero.nvim',
