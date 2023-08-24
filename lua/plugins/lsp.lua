@@ -2,7 +2,7 @@ local lsp = require('lsp-zero').preset({})
 lsp.ensure_installed({
 'tsserver',
 'eslint',
-'sumneko_lua',
+'lua_ls',
 'rust_analyzer'
 })
 lsp.on_attach(function(client, bufnr)
@@ -10,8 +10,5 @@ lsp.on_attach(function(client, bufnr)
 end)
 
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
-lsp.set_preferences({
-	sign_icons = { }
-})
 
 lsp.setup()
