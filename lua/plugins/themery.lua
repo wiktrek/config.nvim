@@ -1,3 +1,5 @@
+
+
 local themes = {
   {
     name = "Material Palenight",
@@ -15,6 +17,18 @@ local themes = {
     name = "Material Oceanic",
     colorscheme = "material-oceanic",
   },
+  {
+   name = "Tokyo night",
+   colorscheme = "tokyonight-night",
+  },
+  {
+   name="Tokyo storm",
+   colorscheme = "tokyonight-storm",
+  },
+   {
+     name = "Tokyo moon",
+     colorscheme ="tokyonight-moon",
+   },
 "slate",
 "neon"
 }

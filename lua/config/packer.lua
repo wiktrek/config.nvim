@@ -42,6 +42,7 @@ use {
 
 -- themes
 use {
+	"folke/tokyonight.nvim",
 	'marko-cerovac/material.nvim',
 	'rafamadriz/neon'
 }
