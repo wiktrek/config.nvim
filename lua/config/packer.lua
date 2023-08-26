@@ -1,27 +1,25 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-use 'wbthomason/packer.nvim'
-
-use('neovim/nvim-lspconfig')
-use('jose-elias-alvarez/null-ls.nvim')
-use('MunifTanjim/prettier.nvim')
-
-use 'nvim-treesitter/nvim-treesitter'
-use 'rafamadriz/neon'
-
-
+-- plugins
 use {
-  'nvim-tree/nvim-tree.lua',
+'wbthomason/packer.nvim',
+'neovim/nvim-lspconfig',
+'nvim-treesitter/nvim-treesitter',
+'jose-elias-alvarez/null-ls.nvim',
+'MunifTanjim/prettier.nvim',
+'zaldih/themery.nvim',
+{
+'nvim-tree/nvim-tree.lua',
   requires = {
     'nvim-tree/nvim-web-devicons', -- optional
   },
-}
-use {
+},
+{
   'nvim-telescope/telescope.nvim', tag = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
-}
-use {
+},
+{
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v2.x',
   requires = {
@@ -36,5 +34,17 @@ use {
     {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
+}
+
+
+
+
+
+-- themes
+use {
+	'marko-cerovac/material.nvim',
+	'rafamadriz/neon'
+}
+
 end)
 
