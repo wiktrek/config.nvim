@@ -29,6 +29,9 @@ local themes = {
      name = "Tokyo moon",
      colorscheme ="tokyonight-moon",
    },
+"earlysummer",
+"monokai",
+"palenight",
 "slate",
 "neon"
 }
