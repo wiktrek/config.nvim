@@ -1,7 +1,7 @@
 
 vim.keymap.set("n", "<C-s>", vim.cmd.w)
 vim.keymap.set("n", "q", vim.cmd.q)
-
+vim.keymap.set("n", "<C-k>", vim.cmd.Themes)
 -- nvim-tree
 vim.keymap.set('n', '<leader>p', vim.cmd.NvimTreeToggle)
 
