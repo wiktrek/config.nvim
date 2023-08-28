@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 vim.keymap.set("n", "<C-s>", vim.cmd.w)
 vim.keymap.set("n", "q", vim.cmd.q)
 vim.keymap.set("n", "<C-k>", vim.cmd.Themes)
@@ -20,3 +21,5 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- prettier
 vim.keymap.set('n', '<leader>fo', vim.cmd.Prettier)
+-- gitsigns
+vim.keymap.set('n', '<leader>gh', vim.cmd.Gitsigns)

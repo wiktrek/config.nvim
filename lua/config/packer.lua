@@ -9,6 +9,8 @@ use {
 'jose-elias-alvarez/null-ls.nvim',
 'MunifTanjim/prettier.nvim',
 'zaldih/themery.nvim',
+'lewis6991/gitsigns.nvim',
+
 {
 'nvim-tree/nvim-tree.lua',
   requires = {
