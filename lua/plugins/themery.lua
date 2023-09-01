@@ -29,6 +29,20 @@ local themes = {
      name = "Tokyo moon",
      colorscheme ="tokyonight-moon",
    },
+   {
+     name = "Dracula",
+     colorscheme ="dracula",
+   },
+   {
+     name = "Dracula Blood",
+     colorscheme ="dracula_blood",
+   },
+   { 
+    name = "Dracula soft",
+    colorscheme ="dracula-soft",
+   },
+"oh-lucy",
+"fluoromachine",
 "mariana",
 "emerald",
 "earlysummer",

@@ -47,8 +47,13 @@ use {
 	'ray-x/starry.nvim',
 	"folke/tokyonight.nvim",
 	'marko-cerovac/material.nvim',
-	'rafamadriz/neon'
+	'rafamadriz/neon',
+    'maxmx03/FluoroMachine.nvim',
+    'Mofiqul/dracula.nvim',
+    'yazeed1s/oh-lucy.nvim',
+
 }
+
 
 end)
 

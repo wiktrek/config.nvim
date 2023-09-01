@@ -3,5 +3,5 @@ vim.api.nvim_create_user_command("Themes", 'Themery', {nargs = 0})
 
 -- Themery block
 -- This block will be replaced by Themery.
-vim.cmd("colorscheme earlysummer")
+vim.cmd("colorscheme dracula-soft")
 -- end themery block
