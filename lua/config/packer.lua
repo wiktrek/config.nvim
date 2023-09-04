@@ -10,7 +10,8 @@ use {
 'MunifTanjim/prettier.nvim',
 'zaldih/themery.nvim',
 'lewis6991/gitsigns.nvim',
-
+'NvChad/nvim-colorizer.lua',
+'jinzhongjia/PS_manager.nvim',
 {
 'nvim-tree/nvim-tree.lua',
   requires = {

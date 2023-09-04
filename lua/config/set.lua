@@ -10,3 +10,4 @@ vim.opt.expandtab = true
 
 vim.smartindent = true
 
+require("colorizer").attach_to_buffer(0, { mode = "virtualtext", css = true})
