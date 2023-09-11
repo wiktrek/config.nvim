@@ -28,7 +28,13 @@ use {
   requires = {
     -- LSP Support
     {'neovim/nvim-lspconfig'},             -- Required
-    {'williamboman/mason.nvim'},           -- Optional
+    {'williamboman/mason.nvim', opts = {
+    ensure_installed = {
+    'eslint-lsp',
+    'prettier',
+    'typescript-language-server',
+}}
+},           -- Optional
     {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
     -- Autocompletion
@@ -45,8 +51,10 @@ use {
 
 -- themes
 use {
+    'EdenEast/nightfox.nvim',
+    'lourenci/github-colors',
 	'ray-x/starry.nvim',
-	"folke/tokyonight.nvim",
+	'folke/tokyonight.nvim',
 	'marko-cerovac/material.nvim',
 	'rafamadriz/neon',
     'maxmx03/FluoroMachine.nvim',

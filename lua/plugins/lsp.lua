@@ -3,7 +3,7 @@ lsp.ensure_installed({
 'tsserver',
 'eslint',
 'lua_ls',
-'rust_analyzer'
+'rust_analyzer',
 })
 lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
