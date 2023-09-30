@@ -11,12 +11,9 @@ use {
 'zaldih/themery.nvim',
 'lewis6991/gitsigns.nvim',
 'NvChad/nvim-colorizer.lua',
-'jinzhongjia/PS_manager.nvim',
+'nvim-tree/nvim-web-devicons',
 {
 'nvim-tree/nvim-tree.lua',
-  requires = {
-    'nvim-tree/nvim-web-devicons', -- optional
-  },
 },
 {
   'nvim-telescope/telescope.nvim', tag = '0.1.x',
