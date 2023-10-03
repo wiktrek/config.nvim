@@ -11,10 +11,10 @@ use {
 'zaldih/themery.nvim',
 'lewis6991/gitsigns.nvim',
 'NvChad/nvim-colorizer.lua',
+'ThePrimeagen/harpoon',
 'nvim-tree/nvim-web-devicons',
-{
 'nvim-tree/nvim-tree.lua',
-},
+
 {
   'nvim-telescope/telescope.nvim', tag = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
