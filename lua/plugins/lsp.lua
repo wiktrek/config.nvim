@@ -3,7 +3,7 @@ lsp.ensure_installed({
 'tsserver',
 'eslint',
 'lua_ls',
-'zig',
+'zls',
 'rust_analyzer',
 })
 lsp.on_attach(function(client, bufnr)
