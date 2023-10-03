@@ -15,6 +15,7 @@ use {
 'tpope/vim-fugitive',
 'nvim-tree/nvim-web-devicons',
 'nvim-tree/nvim-tree.lua',
+'ThePrimeagen/vim-be-good',
 {
   'nvim-telescope/telescope.nvim', tag = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
@@ -42,8 +43,18 @@ use {
 }
 }
 
-
-
+use {
+  "folke/which-key.nvim",
+  config = function()
+    vim.o.timeout = true
+    vim.o.timeoutlen = 300
+    require("which-key").setup {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    }
+  end
+}
 
 
 -- themes
