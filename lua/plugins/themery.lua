@@ -41,6 +41,7 @@ local themes = {
     name = 'Dracula soft',
     colorscheme ='dracula-soft',
    },
+'darker',
 'Nightfox',
 'Duskfox',
 'Nordfox',
@@ -53,6 +54,7 @@ local themes = {
 'emerald',
 'earlysummer',
 'monokai',
+'monokai_lighter',
 'palenight',
 'slate',
 'neon'
