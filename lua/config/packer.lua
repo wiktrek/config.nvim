@@ -6,7 +6,6 @@ use {
 'wbthomason/packer.nvim',
 'neovim/nvim-lspconfig',
 'nvim-treesitter/nvim-treesitter',
-'jose-elias-alvarez/null-ls.nvim',
 'MunifTanjim/prettier.nvim',
 'zaldih/themery.nvim',
 'lewis6991/gitsigns.nvim',
@@ -16,29 +15,26 @@ use {
 'nvim-tree/nvim-web-devicons',
 'nvim-tree/nvim-tree.lua',
 'ThePrimeagen/vim-be-good',
+'williamboman/mason.nvim',
+'williamboman/mason-lspconfig.nvim',
 {
   'nvim-telescope/telescope.nvim', tag = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
 },
 {
   'VonHeikemen/lsp-zero.nvim',
-  branch = 'v2.x',
+  branch = 'v3.x',
   requires = {
-    -- LSP Support
-    {'neovim/nvim-lspconfig'},             -- Required
-    {'williamboman/mason.nvim', opts = {
-    ensure_installed = {
-    'eslint-lsp',
-    'prettier',
-    'typescript-language-server',
-}}
-},           -- Optional
-    {'williamboman/mason-lspconfig.nvim'}, -- Optional
+    --- Uncomment these if you want to manage LSP servers from neovim
+    -- {'williamboman/mason.nvim'},
+    -- {'williamboman/mason-lspconfig.nvim'},
 
+    -- LSP Support
+    {'neovim/nvim-lspconfig'},
     -- Autocompletion
-    {'hrsh7th/nvim-cmp'},     -- Required
-    {'hrsh7th/cmp-nvim-lsp'}, -- Required
-    {'L3MON4D3/LuaSnip'},     -- Required
+    {'hrsh7th/nvim-cmp'},
+    {'hrsh7th/cmp-nvim-lsp'},
+    {'L3MON4D3/LuaSnip'},
   }
 }
 }
