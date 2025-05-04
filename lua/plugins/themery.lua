@@ -61,7 +61,6 @@ local themes = {
 }
 require('themery').setup({
   themes = themes, -- Your list of installed colorschemes
- themeConfigFile = 'lua/config/theme.lua',
 livePreview = true,
 })
 
